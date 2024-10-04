@@ -4,29 +4,16 @@ body {
     margin: 0;
 }
 
-#character-container {
+.character-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#image{
+.image{
     position:relative;
     width: 100;
     height: 50;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-#image.animate {
-    animation: move-image 5s infinite;
-}
-
-@keyframes move-image {
-    0% {
-        transform: translateX(0px);
-    }
-    100% {
-        transform: translateX(100px);
-    }
+    border-radius: 10;
 }
