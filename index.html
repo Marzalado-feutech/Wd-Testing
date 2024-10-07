@@ -21,17 +21,6 @@
                 <div class="link"><a href="#services">Services</a></div>
                 <div class="link"><a href="#contact">Contact</a></div>
             </div>
-            <i class="fa-bars hamburg" onclick="hamburg()"></i>
-        </div>
-        <div class="dropdown">
-            <div class="links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#portfolio">Skills</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-                <button class="btn" onclick="cancel()"></button>
-            </div>
         </div>
     </nav>
 
@@ -53,8 +42,17 @@
                 <p>About me...</p>
                 <div class="social-links">
                     <a href="https://ko-fi.com/asweetenz">
-                        <i class="fa-brands fa-kofi"></i>
+                        <button>Ko-fi</button>
                     </a>
+                    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+                    <script>
+                        kofiWidgetOverlay.draw('asweetenz', {
+                          'type': 'floating-chat',
+                          'floating-chat.donateButton.text': 'Support me',
+                          'floating-chat.donateButton.background-color': '#00b9fe',
+                          'floating-chat.donateButton.text-color': '#fff'
+                        });
+                      </script>
                     <a href="https://www.instagram.com/angelicasweetenz/">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
