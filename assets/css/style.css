@@ -64,9 +64,19 @@ nav{
     transition: 0.3s linear;
 }
 
-.nav-container.lnks a::before{
+.nav-container.links a::before{
     position:absolute;
     content: "";
     bottom: -3px;
     left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    transition: 0.2s linear;
+}
+.nav-container.links a:hover::before{
+    width: 100%;
+}
+.nav-container.links a:hover {
+    color: white;
 }
