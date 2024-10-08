@@ -2,15 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
+    font-size: 0.75em;
     text-decoration: none;
     scroll-behavior: smooth;
 }
 
-body{
+.body{
     width: 100%;
     height: auto;
-    background-color: pink;
+    background-color: white;
     overflow-x: hidden;
 }
 
@@ -21,41 +22,36 @@ body{
     background: white;
 }
 ::-webkit-scrollbar-thumb {
-    background: skyblue;
+    background: pink;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 ::webkit-scrollbar-thumb:hover {
-    background: skyblue;
+    background: pink;
 }
 
 nav{
-    background-color: white;
+    background-color: skyblue;
     overflow: hidden;
 }
 
 .nav-container {
-    float: left;
-    color: pink;
-    text-align: center;
+    background-color: skyblue;
+    align-items: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-}
-
-.nav-container.links:hover {
-    display: flex;
-    background-color: pink;
-    color: white;
 }
 
 .nav-container
-.links a{
+.link a{
     position: relative;
-    font-size: 1.2rem;
-    color: white;
-    margin: 0 20px;
+    width: 9px;
+    height: 1.75em;
+    font-size: 0.875rem;
+    background-color: white;
+    color: skyblue;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
-    font-weight: 550;
     transition: 0.3s linear;
 }
