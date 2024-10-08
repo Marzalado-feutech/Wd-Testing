@@ -36,26 +36,25 @@ nav{
 }
 
 .nav-container {
-    background-color: skyblue;
     align-items: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .button{
-    background-color: skyblue;
-    color: white;
-}
-
-.nav-container
-.link a{
+    background-color: white;
+    color: skyblue;
+    text-align: center;
     position: relative;
     width: 9px;
     height: 1.75em;
     font-size: 0.875rem;
-    color: skyblue;
     margin: 0;
     padding: 0;
-    text-decoration: none;
     transition: 0.3s linear;
+}
+
+.main-image{
+position:absolute;
+width: max-content;
 }
