@@ -31,7 +31,7 @@
 }
 
 nav{
-    max-width: fit-content;
+    max-width: 100%;
     background-color: skyblue;
     overflow: hidden;
 }
@@ -57,5 +57,5 @@ nav{
 
 .main-image{
 position:absolute;
-max-width: fit-content;
+max-width: 100%;
 }
