@@ -42,6 +42,10 @@ nav{
     text-decoration: none;
 }
 
+.button{
+    background-color: white;
+}
+
 .nav-container
 .link a{
     position: relative;
