@@ -31,18 +31,10 @@
 }
 
 nav{
-    width: 100%;
     background-color: skyblue;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-container {
     display: flex;
-    justify-content: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .button{
@@ -53,11 +45,13 @@ nav{
     width: 9px;
     height: 1.75em;
     font-size: 0.875rem;
-    margin: 0;
-    padding: 0;
+    margin-inline: 2rem;
     transition: 0.3s linear;
 }
 .main-image {
-    margin: 0;
-    padding: 0;
+    position: relative;
+    background: url(/assets/img/Main_Image.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
