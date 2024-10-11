@@ -18,6 +18,17 @@
 /* scrollbar */
 
 /* navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f141b;
+}
+.a {
+    text-decoration: none;
+    color: white;
+    margin-inline: 2rem;
+}
 
 /*main*/
 
