@@ -39,3 +39,10 @@ a {
 /*contacts*/
 
 /*footer*/
+.foot {
+    padding: 2 2;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: fixed;
+    align-items: center;
+}
