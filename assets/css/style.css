@@ -2,47 +2,234 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.75em;
     text-decoration: none;
     scroll-behavior: smooth;
 }
 
-.body{
+body{
     width: 100%;
     height: auto;
     background-color: white;
     overflow-x: hidden;
 }
 
-/* scrollbar */
-
 /* navbar */
 .navbar{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #2f141b;
+    background-color: #30BBCF;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 10%;
+    height: 9rem;
 }
-a {
+.nav {
+    width: 65%;
+}
+.navbtn {
     text-decoration: none;
-    color: white;
+    background-color: white;
+    color: #30BBCF;
     margin-inline: 2rem;
+    font-size: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.5rem 5rem;
+}
+.email {
+    width: 30%;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 /*main*/
+.main {
+    overflow-x: hidden;
+    width: 100%;
+    max-height: 10%;
+    padding-bottom: 2rem;
+}
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2rem;
+}
+.profile {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+}
+.about {
+    width: 60%;
+}
+h1 {
+    color: #FF85A2;
+    font-size: 5rem;
+}
+h2 {
+    color: #30BBCF;
+    font-size: 4rem;
+}
+p {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.social-links{
+    text-decoration: none;
+    background-color: #30BBCF;
+    color: white;
+    margin-inline: 2rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.5rem 5rem;
+}
 
 /*education*/
+.education {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+}
+h3 {
+    color: #30BBCF;
+    font-size: 2.5rem;
+}
+h4 {
+    color: #30BBCF;
+    font-size: 2rem;
+}
+.exp {
+    width: 45%;
+}
+
+li {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: 1rem;
+}
 
 /*portfolio*/
+.top3 {
+    text-align: center;
+    background-color: #FF85A2;
+    color: white;
+    font-size: 5rem;
+    padding-top: 3rem;
+}
+.portfolio {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3.5rem;
+    background-color: #FF85A2;
+}
+.sample {
+    width: auto;
+    height: 50rem;
+    border-radius: 3rem;
+}
 
 /*contacts*/
+.contact {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+
+.tac{
+    text-align: justify;
+    padding-right: 5rem;
+}
+
+.com {
+    padding-top: 6.5rem;
+    width: 65%;
+}
+.vgenn {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.vgen{
+    text-decoration: none;
+    background-color: #30BBCF;
+    color: white;
+    margin-inline: 2rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.5rem 5rem;
+}
+form {
+    padding-bottom: 2rem;
+}
+.form {
+    color: #FF85A2;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    unicode-bidi: isolate;
+}
+.forms {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 24rem;
+}
+.submit {
+    text-decoration: none;
+    background-color: #FF85A2;
+    color: white;
+    margin-inline: 2rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    padding: 0.5rem 5rem;
+}
+
+iframe {
+    width: 31rem;
+    height: 27rem;
+}
 
 /*footer*/
-.foot {
-    padding: 2 2;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: fixed;
+footer {
+    display: flex;
     align-items: center;
+    background-color: #30BBCF;
+    justify-content: center;
+    text-align: center;
+    height: 8rem;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+}
+.top {
+    text-decoration: none;
+    background-color: white;
+    color: #30BBCF;
+    margin-inline: 2rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.5rem 5rem;
 }
