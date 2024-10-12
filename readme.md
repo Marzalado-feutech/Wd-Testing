@@ -115,7 +115,7 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
-| Create A Portfolio Website Using HTML and CSS Only - Easy Tutorial| Only ended up using it as reference for *, navbar, and footer |https://www.youtube.com/watch?v=-u3vE84Wo_U|
+| Title | Purpose | Link |<br>
+| Create A Portfolio Website Using HTML and CSS Only - Easy Tutorial| Only ended up using it as reference for *, navbar, and footer |https://www.youtube.com/watch?v=-u3vE84Wo_U|<br>
 | Angelica Sweetenz' Portfolio | Artist Portfolio that I made using Carrd. | https://angelicasweetenz.carrd.co/ |
 
