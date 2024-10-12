@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Profile.png" alt="AngelicaSweetenz" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Marzalado-TD21-Midterm Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Portfolio Website for Midterm Project in CCS0027.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Marzalado-feutech/WD-Testing)
 
 ---
 
@@ -116,5 +116,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Create A Portfolio Website Using HTML and CSS Only - Easy Tutorial| Only ended up using it as reference for *, navbar, and footer |https://www.youtube.com/watch?v=-u3vE84Wo_U|
+| Angelica Sweetenz' Portfolio | Artist Portfolio that I made using Carrd. | https://angelicasweetenz.carrd.co/ |
+
